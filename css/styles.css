@@ -461,6 +461,7 @@ section#work div#workCards div.card .workText h3 {
 }
 section#work div#workCards div.card .workText p {
   margin: 0;
+  padding: 10px;
 }
 
 section#skills h3 {
