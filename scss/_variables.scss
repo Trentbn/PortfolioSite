@@ -1,0 +1,21 @@
+$primaryColor: rgb(35, 35, 35); 
+$secondaryColor: #7c1d47;
+$accentColor: #3990c3;
+$greyColor: #ccc;
+$menuColor: rgb(35, 35, 35);
+$skill-gradient: linear-gradient(
+        90deg,
+        #ff7f50,
+        #6a5acd,
+        #20b2aa
+    );
+
+$defaultFont:"Raleway", sans-serif;
+$headingFont: "Goudy Bookletter 1911", serif;
+$lightWeight: 300;
+$normalWeight: 500;
+$leading: 150%;
+
+$card-shadow-strong: 0 3px 8px 5px rgb(231, 231, 231);
+$card-shadow-soft:   0 0 5px 3px rgb(227, 227, 227);
+$gutter: 10px;

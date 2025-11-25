@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>TrentN. | Product Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+
+<!-- Google Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <img src="images/TNlogo.png" alt="logo" width="50">
+		<span>Trent Nelson</span>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+<div id="navWrapper">
+    <nav>
+        <ul id="primaryNav">
+            <li class="active"><a href="#about"><img src="images/profile.svg" width="50"><span>about me</span></a></li>
+            <li><a href="#work"><img src="images/portfolio.svg" width="50"><span>work</span></a></li>
+            <li><a href="#skills"><img src="images/skills.svg" width="50"><span>skills</span></a></li>
+            <li><a href="#resume"><img src="images/resume.svg" width="50"><span>resume</span></a></li>
+            <li><a href="#contact"><img src="images/email.svg" width="50"><span>contact</span></a></li>
+
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+        <!-- About Section -->
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div id="intro">
+            <img src="images/portrait.jpg" alt="picture of me" width="250">
+            <p>Hey there👋🏼 I'm Trent Nelson. When I stumbled upon the discipline of User Experience Design, It felt like I found my calling. I'm passionate about creating experiences that are memorable, beautiful, and that work flawlessly. I'm always learning and growing in this field, and enjoy having my mind opened to new perspectives and ideas. When I'm not obsessing over designs, you could find me watching Friends with my wife and dog Archibald, dabbling in photography/videography, or skateboarding.  
+            </p>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work">
+            <h2>Work</h2>
+            <div id="workCards">
+                <div class="card">
+                    <img src="images/voy-square.jpg" alt="voy mockups" width="300">
+                    <div class="workText">
+                    <h3>Voy Travel</h3>
+                    <p>Designing a travel itinerary card and viewing experience</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/cet-4x3.jpg" alt="cet screenshot" width="300">
+                    <div class="workText">
+                    <h3>CET Redesign</h3>
+                    <p>Utilizing user research and testing to improve UVU's CET site</p>
+                </div>
+                </div>
+                <div class="card">
+                    
+                    <img src="images/burma-4x3.jpg" alt="burma screenshot" width="300">
+                    <div class="workText">
+                    <h3>Burma Humanitarian Mission</h3>
+                    <p>Redesigning a non-profits website</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div id="skillCards">
+                <div>
+                    <img src="images/design.svg" alt="design">
+                    <h3>User Experience Design</h3>
+                    <p>I create intuitive, memorable experiences by understanding user needs and translating them into clear, thoughtful interfaces. My process combines research, interaction design, and usability principles to craft products that feel effortless and genuinely helpful.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/coding.svg" alt="coding">
+                    <h3>Front-end Development</h3>
+                    <p>I bring designs to life through clean, responsive, and accessible code. Using modern front-end tools and best practices, I build interfaces that not only look great but perform smoothly across devices and screen sizes.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/lightbulb.svg" alt="lightbulb">
+                    <h3>Product Strategy</h3>
+                    <p>I bring designs to life through clean, responsive, and accessible code. Using modern front-end tools and best practices, I build interfaces that not only look great but perform smoothly across devices and screen sizes.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Want to see my experience on paper? Take a look at my resume</p>
+            <img src="images/resume.jpg" alt="resume">
+            <button>See My Resume</button>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Lets work together! Reach out to me through email, this could be the start of something beautiful</p>
+            <form method="get" action="thanks.html" class="myForm" autocomplete="on">
+                <label>First Name: <input type="text" name="fname" autocomplete="given-name" required title="First name here"></label>
+                <label>Last Name: <input type="text" name="lname" autocomplete="family-name" required title="Last name here"></label>
+                <label>Your Email: <input type="email" name="email" autocomplete="email" required title="Your email here"></label>
+                <label>Message: <textarea name="message" id="message" cols="30" rows="10" placeholder="write your message here" required></textarea></label>
+
+                <input type="submit" value="Send Message">
+            </form>
+            
+        </section>
+     
+
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <p>Copyright &copy; Trent Nelson Design &bull; 2025 </p>
+        <div id="social">
+            <a href="#"><img src="images/insta.png" alt="instagram logo" width="50"></a>
+            <a href="#"><img src="images/facebook.png" alt="facebook logo" width="50"></a>
+            <a href="#"><img src="images/linked.png" alt="linkedIn logo" width="50"></a>
+            <a href="#"><img src="images/youtube.png" alt="Youtube logo" width="50"></a>
+        </div>
+    </footer>
+</div> <!-- end footer wrapper -->
+   
+<script src="js/scripts.js"></script>
+</body>
+</html> 
